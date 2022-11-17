@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <script src="index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="asserts/balletjes.png" />
+
+        <div class="container2">
+
+        <br />
+        <br />
+
+        <h1>My Ice Cream Salon</h1>
+
+        <br />
+        <br />
+
+        <h2>fun to say. even more fun to eat.</h2>
+        <br />
+        <br />
+
+        <h3>
+           isn’t just ice cream. It’s a line of playful frozen treats
+          designed to take you to your happy place. One bite transports you to a
+          sun-soaked beach. Another brings you back to the days of chasing the
+          neighborhood ice cream truck.
+        </h3>
+
+        <br />
+        <br />
+       
+        <h2>what are you waiting for? try some.</h2>
+        <br />
+        <br />
+
+        <h3>
+          Enjoy a scoop poolside with your kids or bite into a dessert bar while
+          doing yoga (hey, you could start a new trend!). Really, no matter what
+          you get up to, Gelatelli makes it more fun. try a sweet treat now!
+        </h3>
+
+        <br />
+        <br />
+
+      </div>
+      </div>
+      <div class="main">
+        <div class="order">
+          <h2>Choose Your Container</h2>
+          <br />
+        
+          <div class="pothoorncontainer">
+
+
+          
+
+           <div for="potje" class="conesort"><H2>Cup 0,45 €</H2></div>
+            <input
+
+        
+              onchange="holder()"
+              type="radio"
+              name="besteling"
+              class="container"
+              value="Cup"
+              id="potje"
+            />
+            
+
+           
+            <div for="hoorntje" class="conesort"><H2>Corner 0,25 €</H2> </div>
+            <input
+              onchange="holder()"
+              type="radio"
+              name="besteling"
+              class="container"
+              value="Corner"
+              id="hoorntje"
+            /> 
+
+           
+           
+          </div>
+          <br />
+          <br />
+          <h2>Choose Your Taste</h2>
+          <br />
+        
+          <div class="pothoorn">
+
+<div class="ballssort">    <H2> Vanilla 1,25 €
+</H2>
+
+<button onclick="handleclickmin3()" class="button" > min</button>
+
+
+
+
+<button onclick="handleclickplus3()"class="button"> plus</button></div>
+                   
+      
+
+
+          <div class="ballssort">  <H2> Strawberry 1,75 €  </H2>
+
+            <button onclick="handleclickmin2()" class="button"> min</button>
+  
+  
+          
+          
+            <button onclick="handleclickplus2()"class="button"> plus</button></div>
+
+        
+
+          <div class="ballssort"> <H2> Chocolate 1,5 €</H2>
+
+            <button onclick="handleclickmin()" class="button"> min</button>
+  
+  
+            
+            
+            <button onclick="handleclickplus()"class="button"> plus</button></div>
+         
+
+         
+
+
+           
+            
+         
+
+
+
+          
+          </div>
+        </div>
+        <div class="paiment">
+          <h2>Your choise</h2>
+          <div class="display" id="resultcontainer">
+            <div class="ijsdisplay">
+
+
+
+              <h4>
+                <span id="warning1"></span>
+
+                <span id="namee3"></span><span id="namee2"></span> <span
+                id="weergever"
+              ></span>  <br>   <br> <span id="aantal"></span> <br> <br>  <span id="warning"></span> </h4>
+           
+
+             
+            </div>
+            <div class="containerdisplay">
+
+              <div>
+                <img
+                  src="asserts/vanille.jpg"
+                  id="toppp1"
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/vanille.jpg"
+                  id="toppp2"
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/vanille.jpg"
+                  id="toppp3"
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/vanille.jpg"
+                  id="toppp4"
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/vanille.jpg"
+                  id="toppp5"
+                  width="40"
+                  style="visibility: hidden"
+                />
+              </div>
+              <div>
+                <img
+                  src="asserts/aardbei.jpg"
+                  id="topp1"
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/aardbei.jpg"
+                  id="topp2"
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/aardbei.jpg"
+                  id="topp3"
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/aardbei.jpg"
+                  id="topp4"
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/aardbei.jpg"
+                  id="topp5"
+                  width="40"
+                  style="visibility: hidden"
+                />
+              </div>
+              <div>
+                <img
+                  src="asserts/top.jpg"
+                  id="top1"
+                 
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/top.jpg"
+                  id="top2"
+                
+                  width="40"
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/top.jpg"
+                  id="top3"
+                  width="40"
+                
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/top.jpg"
+                  id="top4"
+                  width="40"
+                
+                  style="visibility: hidden"
+                />
+                <img
+                  src="asserts/top.jpg"
+                  id="top5"
+                  width="40"
+               
+                  style="visibility: hidden"
+                />
+
+    
+     
+              
+            <div class="fotos" >
+
+            <img
+              src="asserts/plate.jpg"
+              id="potjeimg"
+              width="100"
+              style="visibility: hidden"
+            />
+            <img
+              src="asserts/cone.jpg"
+              id="hoorntjeimg"
+              width="100"
+              style="visibility: hidden"
+            />
+          </div>
+        </div>
+
+      </div>
+      <div class="textprice"> <h5><span id="price"></span></h5>  
+
+      </div>
+
+
+    </div>   </div>
+
+
+  </body>
+</html>

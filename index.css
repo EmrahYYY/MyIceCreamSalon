@@ -1,0 +1,461 @@
+* {
+  margin: 0vw;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: auto;
+
+  align-items: center;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.header {
+  width: 100vw;
+
+  height: 800px;
+
+  background-color: white;
+
+  background-image: url("bacroend.png");
+
+  display: flex;
+
+  align-items: center;
+
+  flex-direction: column;
+
+  z-index: 10;
+}
+
+.container2 {
+  background-color: aqua;
+
+  margin-top: -130px;
+
+  width: 70vw;
+
+  z-index: 0;
+}
+
+h1 {
+  width: 35vw;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  width: 35vw;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .h2 {
+    width: 35vw;
+
+    height: auto;
+  }
+}
+
+h3 {
+  width: 45vw;
+
+  margin: 0 auto;
+
+  font-weight: lighter;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h4 {
+  text-align: center;
+
+  font-weight: lighter;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .h4 {
+    width: 20vw;
+
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .h3 {
+    width: 45vw;
+
+    height: auto;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .header {
+    width: 100vw;
+
+    height: auto;
+  }
+}
+
+.header > img {
+  width: 70vw;
+  height: auto;
+
+  border-radius: 0 0 100px 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .header > img {
+    width: 70vw;
+
+    height: auto;
+  }
+}
+
+.main {
+  width: 100vw;
+
+  height: 750px;
+
+  background-color: darkolivegreen;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    width: 100vw;
+
+    height: auto;
+
+    flex-direction: column;
+  }
+}
+
+.order {
+  /* background-image: url("icefoto.jpg"); */
+
+  font-size: calc(1vw);
+
+  width: 60vw;
+
+  height: 750px;
+
+  background-color: aqua;
+
+  align-items: center;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 700px) {
+  .order {
+    width: 100vw;
+
+    height: auto;
+  }
+}
+
+.order > img {
+  width: 70vw;
+  height: 750px;
+}
+
+@media only screen and (max-width: 700px) {
+  .order > img {
+    width: 100vw;
+
+    height: auto;
+  }
+}
+
+.paiment {
+  font-size: calc(1vw);
+
+  width: 40vw;
+
+  height: 750px;
+
+  background-color: aqua;
+
+  align-items: center;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 700px) {
+  .paiment {
+    width: 100vw;
+
+    height: auto;
+  }
+}
+
+.pothoorncontainer {
+  font-size: calc(1vw);
+
+  width: 30vw;
+
+  height: 150px;
+
+  background-color: cadetblue;
+  background-color: bige;
+
+  align-items: center;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+.conesort {
+  font-size: calc(1vw);
+
+  width: 12vw;
+
+  height: 100px;
+
+  background-color: cadetblue;
+
+  align-items: center;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+.pothoorn {
+  font-size: calc(1vw);
+
+  width: 30vw;
+
+  height: 250px;
+
+  background-color: cadetblue;
+
+  align-items: center;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.ballssort {
+  font-size: calc(1vw);
+
+  width: 23vw;
+
+  height: 100px;
+
+  background-color: cadetblue;
+
+  align-items: center;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+.potje,
+.hoorntje {
+}
+input[type="radio"]:checked {
+}
+
+.container {
+}
+#smaakcontainer {
+}
+
+.smaken {
+}
+#aantalkiezer {
+}
+
+.ijsdisplay {
+  background-color: white;
+
+  width: 20vw;
+  height: 150px;
+
+  align-items: flex-start;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 700px) {
+  .ijsdisplay {
+    width: 50vw;
+
+    height: auto;
+  }
+}
+
+.display {
+  text-align: right;
+
+  font-size: calc(1vw);
+
+  width: 20vw;
+
+  height: 450px;
+
+  background-color: white;
+
+  align-items: flex-start;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 700px) {
+  .display {
+    width: 50vw;
+
+    height: auto;
+
+    align-items: flex-start;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+  }
+}
+
+.containerdisplay {
+  text-align: left;
+  font-size: calc(1vw);
+  width: 20vw;
+
+  background-color: cadetblue;
+
+  align-items: flex-start;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 700px) {
+  .containerdisplay {
+    width: 50vw;
+
+    height: auto;
+
+    align-items: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+  }
+}
+.fotos {
+  width: 20vw;
+
+  height: 150px;
+
+  align-items: center;
+  background-color: white;
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 700px) {
+  .fotos {
+    width: 50vw;
+
+    height: auto;
+  }
+}
+
+.butto {
+}
+
+.textprice {
+  text-align: center;
+
+  font-size: calc(2vw);
+  width: 20vw;
+  height: 200px;
+
+  background-color: cadetblue;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media only screen and (max-width: 700px) {
+  .textprice {
+    width: 50vw;
+
+    height: auto;
+  }
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 8px 6px;
+  cursor: pointer;
+}

@@ -1,4 +1,4 @@
-let x = 0;
+let count = 0;
 
 let price = 0;
 
@@ -69,30 +69,30 @@ function handleclickplus() {
   if (price == 0) {
     document.getElementById("warning1").innerHTML = warning1;
   } else {
-    if (topimg.style.visibility == "hidden" && x < 5) {
+    if (topimg.style.visibility == "hidden" && count < 5) {
       topimg.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.5;
-    } else if (topimg1.style.visibility == "hidden" && x < 5) {
+    } else if (topimg1.style.visibility == "hidden" && count < 5) {
       topimg1.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.5;
-    } else if (topimg2.style.visibility == "hidden" && x < 5) {
+    } else if (topimg2.style.visibility == "hidden" && count < 5) {
       topimg2.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.5;
-    } else if (topimg3.style.visibility == "hidden" && x < 5) {
+    } else if (topimg3.style.visibility == "hidden" && count < 5) {
       topimg3.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.5;
-    } else if (topimg4.style.visibility == "hidden" && x < 5) {
+    } else if (topimg4.style.visibility == "hidden" && count < 5) {
       topimg4.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.5;
     }
   }
 
-  total(x);
+  total(count);
 
   totalPrice(price);
 }
@@ -106,27 +106,27 @@ function handleclickmin() {
 
   if (topimg4.style.visibility == "visible") {
     topimg4.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.5;
   } else if (topimg3.style.visibility == "visible") {
     topimg3.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.5;
   } else if (topimg2.style.visibility == "visible") {
     topimg2.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.5;
   } else if (topimg1.style.visibility == "visible") {
     topimg1.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.5;
   } else if (topimg.style.visibility == "visible") {
     topimg.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.5;
   }
 
-  total(x);
+  total(count);
 
   totalPrice(price);
 }
@@ -141,30 +141,30 @@ function handleclickplus2() {
   if (price == 0) {
     document.getElementById("warning1").innerHTML = warning1;
   } else {
-    if (topimgg.style.visibility == "hidden" && x < 5) {
+    if (topimgg.style.visibility == "hidden" && count < 5) {
       topimgg.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.75;
-    } else if (topimgg1.style.visibility == "hidden" && x < 5) {
+    } else if (topimgg1.style.visibility == "hidden" && count < 5) {
       topimgg1.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.75;
-    } else if (topimgg2.style.visibility == "hidden" && x < 5) {
+    } else if (topimgg2.style.visibility == "hidden" && count < 5) {
       topimgg2.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.75;
-    } else if (topimgg3.style.visibility == "hidden" && x < 5) {
+    } else if (topimgg3.style.visibility == "hidden" && count < 5) {
       topimgg3.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.75;
-    } else if (topimgg4.style.visibility == "hidden" && x < 5) {
+    } else if (topimgg4.style.visibility == "hidden" && count < 5) {
       topimgg4.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.75;
     }
   }
 
-  total(x);
+  total(count);
   totalPrice(price);
 }
 
@@ -177,27 +177,27 @@ function handleclickmin2() {
 
   if (topimgg4.style.visibility == "visible") {
     topimgg4.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.75;
   } else if (topimgg3.style.visibility == "visible") {
     topimgg3.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.75;
   } else if (topimgg2.style.visibility == "visible") {
     topimgg2.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.75;
   } else if (topimgg1.style.visibility == "visible") {
     topimgg1.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.75;
   } else if (topimgg.style.visibility == "visible") {
     topimgg.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.75;
   }
 
-  total(x);
+  total(count);
   totalPrice(price);
 }
 
@@ -211,31 +211,31 @@ function handleclickplus3() {
   if (price == 0) {
     document.getElementById("warning1").innerHTML = warning1;
   } else {
-    if (topimggg.style.visibility == "hidden" && x < 5) {
+    if (topimggg.style.visibility == "hidden" && count < 5) {
       topimggg.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.25;
-    } else if (topimggg1.style.visibility == "hidden" && x < 5) {
+    } else if (topimggg1.style.visibility == "hidden" && count < 5) {
       topimggg1.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.25;
-    } else if (topimggg2.style.visibility == "hidden" && x < 5) {
+    } else if (topimggg2.style.visibility == "hidden" && count < 5) {
       topimggg2.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.25;
-    } else if (topimggg3.style.visibility == "hidden" && x < 5) {
+    } else if (topimggg3.style.visibility == "hidden" && count < 5) {
       topimggg3.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.25;
-    } else if (topimggg4.style.visibility == "hidden" && x < 5) {
+    } else if (topimggg4.style.visibility == "hidden" && count < 5) {
       topimggg4.style.visibility = "visible";
-      x++;
+      count++;
       price += 1.25;
     }
   }
 
   totalPrice(price);
-  total(x);
+  total(count);
 }
 
 function handleclickmin3() {
@@ -247,27 +247,27 @@ function handleclickmin3() {
 
   if (topimggg4.style.visibility == "visible") {
     topimggg4.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.25;
   } else if (topimggg3.style.visibility == "visible") {
     topimggg3.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.25;
   } else if (topimggg2.style.visibility == "visible") {
     topimggg2.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.25;
   } else if (topimggg1.style.visibility == "visible") {
     topimggg1.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.25;
   } else if (topimggg.style.visibility == "visible") {
     topimggg.style.visibility = "hidden";
-    x--;
+    count--;
     price -= 1.25;
   }
 
-  total(x);
+  total(count);
   totalPrice(price);
 }
 
